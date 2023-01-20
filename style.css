@@ -1,13 +1,16 @@
-body {
+body,
+html {
   margin: 0;
+  padding: 0;
   font-family: 'Smythe', cursive;
   color: #444;
+  letter-spacing: 1.2px;
+  box-sizing: border-box;
 }
 
 h1,
 h2 {
   font-weight: normal;
-  letter-spacing: 1.5px;
 }
 h1 {
   font-size: 39px;
@@ -41,17 +44,87 @@ h2 {
 }
 
 .text-wraper {
-  position: fixed;
+  position: absolute;
   align-self: center;
-  margin-left: 46px;
+  margin-left: 60px;
   line-height: 13px;
   color: whitesmoke;
 }
 
 .main-section {
-  border: 1px solid #444;
   margin: 40px 46px;
   display: flex;
   flex-direction: column;
   gap: 46px;
+}
+
+/* Items section */
+.item-wraper {
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.text {
+  margin: 20px;
+  line-height: 1px;
+
+  margin: 15px;
+}
+
+.text__wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-emoji {
+  font-size: 70px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.item-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.item-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-description {
+  color: #8b8b8b;
+}
+
+.section-1 {
+  display: flex;
+  gap: 5px;
+  height: 140px;
+}
+
+.section-2 {
+  margin-left: auto;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 1.5px solid #dedede;
+  position: relative;
+  top: 20px;
+}
+
+.section-2:hover {
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.add-btn {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: -1.5px;
+  left: 10.5px;
+  font-size: 32px;
+  color: #3c3c3c;
+}
+
+.section-2:hover {
+  cursor: pointer;
 }
