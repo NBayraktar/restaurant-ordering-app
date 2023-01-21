@@ -67,7 +67,6 @@ h2 {
 .text {
   margin: 20px;
   line-height: 1px;
-
   margin: 15px;
 }
 
@@ -127,4 +126,80 @@ h2 {
 
 .section-2:hover {
   cursor: pointer;
+}
+
+/* Order Section */
+.order-title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.divider {
+  margin: 0 46px;
+  border-bottom: 2px solid #3c3c3c;
+}
+
+.order-wraper {
+  display: flex;
+  margin: 0 46px;
+  margin-top: 5px;
+}
+
+.order {
+  display: flex;
+}
+
+.order-text {
+  margin-left: 0;
+  color: #bbb;
+  font-weight: normal;
+}
+
+.remove {
+  display: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #bbb;
+  font-weight: normal;
+  padding-top: 2px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.order-price {
+  margin-left: auto;
+  margin-right: 0;
+  color: #bbb;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.order-divider {
+  border-bottom: 2px solid #393333;
+  margin: 10px 46px;
+}
+
+.complete-btn {
+  background-color: #16db99;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 18px 0;
+  margin: 30px 46px;
+  width: 508px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background-color: rgba(22, 219, 153, 0.6);
+  color: #444;
+  transition: 0.5s;
 }
